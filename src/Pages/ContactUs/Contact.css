@@ -1,0 +1,95 @@
+.custom-contact-us {
+  height: 40rem;
+  position: relative;
+  padding-top: 80px;
+}
+
+.custom-contact-bg-image {
+  background-image: url('https://images.pexels.com/photos/461940/pexels-photo-461940.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.9;
+  height: 42rem;
+ 
+
+}
+
+.container {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.custom-form {
+  width: 40rem;
+  background-color: #fff; 
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+
+.custom-headings,
+.custom-info-item span {
+  color: #292727; 
+}
+
+.custom-contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+}
+
+.custom-icon {
+  margin-right: 10px;
+}
+
+.custom-cartoons-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.custom-running-icon {
+  margin-left: 2rem;
+  margin-top: 21rem;
+  animation: running-animation 2s linear infinite;
+  color: rgb(31, 25, 25);
+}
+
+@keyframes running-animation {
+  0% {
+      transform: translateX(-100%);
+  }
+  100% {
+      transform: translateX(100%);
+  }
+}
+
+
+
+
+.total-form{
+width: 100%;
+}
+
+
+.name-css{
+  
+  margin-left: -26rem;
+  width: 40rem;
+}
+
+.contact-headings{
+  color: whitesmoke;
+  margin-left: -26rem;
+
+}
+
+
+.contact-button{
+  margin-left: -26rem;
+}

@@ -1,0 +1,184 @@
+
+
+
+.front{
+    height: 100%;
+    width: 100%;
+}
+.frontimage{
+    height: 39rem;
+    width: 100%;
+}
+.grid{
+    height: 20rem;
+    width: 40rem;
+}
+
+.slider-container {
+
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+
+
+.slider::-webkit-scrollbar {
+  display: none; 
+}
+.imagee{
+    margin-right: 1rem;
+    width: 19rem;
+    height: 9rem;
+}
+
+.card {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+}
+
+
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  z-index: 1; 
+}
+
+.left-arrow {
+  left: 10px; 
+}
+
+.right-arrow {
+  right: 10px; 
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image-container img {
+    width: 200px; 
+    height: 100px; 
+    margin-right: 10px;
+    border-radius: 8px; 
+  }
+  
+
+  .saving{
+    
+    height: 11%;
+    border-radius: 10px;
+    width: 88rem;
+ 
+  }
+
+  
+  .giftstore{
+  
+    margin-top: -8px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .button-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .styled-link {
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #858458; 
+    border-bottom: 2px solid transparent; 
+    border-bottom: 2px solid #6d87a1; 
+  }
+  
+  .styled-link:hover {
+    border-bottom: 2px solid #6d87a1; 
+  }
+
+
+  .newcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .new{
+
+    height: 35rem;
+    width: 31%;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .image1{
+    transition: ease-in-out;
+    width: 102%;
+    height: 28rem;
+    border-radius: 8px;
+  } 
+
+  .image1:hover {
+    transform:  scale(1.1);
+
+}
+  .skincare-container{
+    width: 96%;
+    margin-left: 28px;
+  }
+
+  .skincare{
+    margin: 2px;
+    width: 24.4%;
+  }
+  .bestseller-container{
+    margin-top: 1rem;
+    margin-left: 29px;
+    width: 100%;
+  }
+
+  .bestseller{
+    width: 31.6%;
+    border-radius: 10px;
+  }

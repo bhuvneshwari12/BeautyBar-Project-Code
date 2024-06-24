@@ -1,0 +1,52 @@
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+  
+  .navigation {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+  }
+  
+  .navi {
+    height: 4rem;
+  }
+  
+  a:active {
+    background-color: rgb(212, 191, 217);
+  }
+  
+  .me-auto :hover {
+    border: white solid 1px;
+  }
+  
+  
+  
+  .navIcon {
+    font-size: 18px;
+  }
+  
+
+.login-button{
+  position: fixed;
+  margin-left: auto;
+  margin-right: 100px;
+  left: 70px;
+  right: 1px;
+  height: 44px;
+  width: 120px;
+  font-size: larger;
+}
+
+.logout-button{
+  position: relative;
+  margin-right: 90px;
+  left: 70px;
+  right: 1px;
+  height: 44px;
+  width: 120px;
+  font-size: larger;
+  
+}
